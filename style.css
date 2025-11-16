@@ -1,62 +1,97 @@
- body {
-background-color: #CCD1D1;
- border: 2px solid orange;
- background-image: url("https://p4.wallpaperbetter.com/wallpaper/880/223/667/black-stars-wallpaper-preview.jpg")
- }
- h1{
-   font-family: Impact;
-   text-align: center;
-   font-size:40px;
-   color:#FF9F45;
-   font-weight: 400;
-   
- }
- h2{
-   font-family:helvetica;
-   color:#8CD689;
- }
- h3{
-   font-family:helvetica;
-   color:#8CD689; 
- }
-
-td{
-  color:white;
-}
-th{
-  color:#D14B4B;
-}
-.GAMESES{
-  font-size:30px;
-  color:#FF9E30;
-}
-.dotexe{
-  font-size:0px;
-}
-.GGG{
-  color:orange;
-}
-.Face{
-color:#4685DC;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+    line-height: 1.6;
 }
 
-.TW{
-  color:#2ECEF9;
-}
-.Insta{
-  color:#F94646;
-}
-.puntoexe{
-  font-size:0px;
+header {
+    background: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-p{
-  color:white;
-  font-family: futura;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
-ol{
-  color:white;
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
 }
-a{
-  color:#C8ADFF;
+
+nav ul li a {
+    color: #00e6e6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1, h2 {
+    color: #00e6e6;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* QUIZ */
+.quiz-question {
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #00e6e6;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #00b3b3;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1c1c1c;
+    margin-top: 40px;
 }
